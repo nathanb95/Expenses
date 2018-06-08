@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Expenses
 //
-//  Created by user141390 on 6/8/18.
+//  Created by Nathaniel Banderas on 6/8/18.
 //  Copyright © 2018 Nathaniel Banderas. All rights reserved.
 //
 

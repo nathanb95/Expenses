@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3032EDE920CAF180005AF470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032EDE820CAF180005AF470 /* AppDelegate.swift */; };
-		3032EDEB20CAF180005AF470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032EDEA20CAF180005AF470 /* ViewController.swift */; };
 		3032EDEE20CAF180005AF470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032EDEC20CAF180005AF470 /* Main.storyboard */; };
 		3032EDF020CAF181005AF470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3032EDEF20CAF181005AF470 /* Assets.xcassets */; };
 		3032EDF320CAF181005AF470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3032EDF120CAF181005AF470 /* LaunchScreen.storyboard */; };
+		3032EDFB20CAF1E6005AF470 /* expensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032EDFA20CAF1E6005AF470 /* expensesViewController.swift */; };
+		3032EE1B20CAF99A005AF470 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3032EE1A20CAF99A005AF470 /* Expenses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3032EDE520CAF180005AF470 /* Expenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3032EDE820CAF180005AF470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3032EDEA20CAF180005AF470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3032EDED20CAF180005AF470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3032EDEF20CAF181005AF470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3032EDF220CAF181005AF470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3032EDF420CAF181005AF470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3032EDFA20CAF1E6005AF470 /* expensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expensesViewController.swift; sourceTree = "<group>"; };
+		3032EE1A20CAF99A005AF470 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				3032EDE820CAF180005AF470 /* AppDelegate.swift */,
-				3032EDEA20CAF180005AF470 /* ViewController.swift */,
+				3032EDFA20CAF1E6005AF470 /* expensesViewController.swift */,
 				3032EDEC20CAF180005AF470 /* Main.storyboard */,
 				3032EDEF20CAF181005AF470 /* Assets.xcassets */,
 				3032EDF120CAF181005AF470 /* LaunchScreen.storyboard */,
+				3032EE1A20CAF99A005AF470 /* Expenses.swift */,
 				3032EDF420CAF181005AF470 /* Info.plist */,
 			);
 			path = Expenses;
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3032EDEB20CAF180005AF470 /* ViewController.swift in Sources */,
+				3032EE1B20CAF99A005AF470 /* Expenses.swift in Sources */,
 				3032EDE920CAF180005AF470 /* AppDelegate.swift in Sources */,
+				3032EDFB20CAF1E6005AF470 /* expensesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
